@@ -1,1 +1,28 @@
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
+h1 {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  background-color: gainsboro;
+  box-shadow: 4px 6px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-inline-start: 0px;
+  list-style-type: none;
+
+  border: 2px solid gainsboro;
+  margin: auto;
+}
+
+li {
+  padding: 5px;
+}

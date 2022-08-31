@@ -1,5 +1,7 @@
 import './App.css';
 
+
+
 function App() {
 
   const users = [
@@ -8,10 +10,14 @@ function App() {
     { name: "Michelle Hoelzer", id: 3 }
   ];
 
+
   return (
     <div>
       <h1>User names</h1>
-      <ul></ul>
+      <ul>
+        {users.map((users) => <li key={users.id}>{users.name}</li>)}
+      </ul>
+
     </div>
   );
 }
